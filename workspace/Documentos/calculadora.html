@@ -1,0 +1,24 @@
+<html>
+<meta htt-equiv="Contnt - Type" content="text/html; charset=UTF-8"/>
+<head>
+  <title>Calculadora</title>
+  <script type="text/javascript">
+    function soma(){
+                    numero1 = parseInt(document.getElemantById("numero1").value); 
+                    numero2 = parseInt(document.getElemantById("numero2").value);
+                    alert numero1;
+                    alert numero2;
+                    }
+  </script>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <form id="form1">
+      <label>Número 1</label>
+      <input type="text" id="numero1" value = "0" maxlength="3" size="3">
+      <label>Número 2</label>
+      <input type="text" id="numero1" value = "0" maxlength="3" size="3">
+      <input type="button" id="botao" value="+" onclick="soma()">
+    </form>
+  
+  </body>
